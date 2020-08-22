@@ -27,8 +27,8 @@ jobs:
         platform-version: '3.8'
 
     - name: 'Deploy to Azure Web App'
-      uses: azure/webapps-deploy@v1
+      uses: azure/webapps-deploy@v2
       with:
         app-name: 'aimahelpdesk'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b3f755e910984374b36be8ed54ff63c6 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0fc5f3c08375483296f605c241d7e05d }}
