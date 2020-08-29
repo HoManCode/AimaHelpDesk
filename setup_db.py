@@ -4,13 +4,7 @@ from app.models import Task
 db.drop_all()
 db.create_all()
 
-tasks = [
-    'Software Issue',
-    'Hardware Issue',
-    'Network Issue',
-    'Internet Issue',
-    'Other Issue, Please describe the issue in the text box'
-]
+tasks = [ ]
 
 for task in tasks:
     new_task = Task(name=task, description='')
