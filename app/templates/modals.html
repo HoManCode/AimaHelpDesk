@@ -14,8 +14,8 @@
                         <input name="taskName" type="text" class="form-control" id="taskName" placeholder="Item Name" />
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Ticket Category</label>
-                        <select class="form-control" id="Ticket_Category">
+                        <label for="taskCategory">Ticket Category</label>
+                        <select name="taskCategory" class="form-control" id="taskCategory">
                           <option>Software Issue</option>
                           <option>Hardware Issue</option>
                           <option>Network Issue</option>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="form-group">
                         <label for="itemDescription">Issue Description</label>
-                        <textarea name="taskDescription" class="form-control" id="taskDescription" rows="3"></textarea>
+                        <textarea name="taskDescription" type="text" class="form-control" id="taskDescription" rows="10"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
