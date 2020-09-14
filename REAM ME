@@ -1,0 +1,16 @@
+Aima Help Desk
+
+The purpose of this WebApp is to register help desk tickets and request IT department to follow these issues.
+
+In the new ticket form, user can fill the contact info, name and complete description of the issue, IT personels can read these tickets and contact the user.
+
+Tech stack:
+- html
+- css
+- Bootstrap
+- Flask
+- SQLite
+
+The help desk is available on below public website:
+
+https://aimahelpdesk.azurewebsites.net
